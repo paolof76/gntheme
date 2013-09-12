@@ -1,0 +1,21 @@
+/*
+Theme Name: Gaianews
+Description: Tema per il sito www.gaianews.it
+Version: 1.0
+Author: Alessio De Feudis
+Author URI: http://www.defeudis.it/
+Tags: fixed width, white, two-columns
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Questrial|Muli');
+
+@import url('style_struttura.css');
+@import url('style_header.css');
+@import url('style_footer.css');
+@import url('style_home.css');
+@import url('style_sidebar.css');
+@import url('style_offerta_turistica.css');
+@import url('style_chosen.css');
+@import url('style_tcal.css');
+@import url('style_lightbox.css');
+@import url('responsive.css');

@@ -1,0 +1,225 @@
+/****** header *******/
+.header {
+	width:960px;
+	height:295px;
+	background-image:url(images/struttura/sfondo_header.jpg);
+	background-repeat:no-repeat;
+	margin:0px auto;
+}
+.header_viaggi {
+	background-image:url(images/struttura/sfondo_header_viaggi.jpg);
+}
+.header a.home {
+	display:block;
+	width:960px;
+	height:100px;
+}
+.header_print {
+	display:none;
+}
+/****** menu nav *******/
+.header .menu_nav{
+	height:63px;
+	margin:10px 0px 0px 0px;
+	position:relative;
+}
+.header .menu_nav ul, 
+.header .menu_nav li {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.header .menu_nav a {
+	display:inline-block;
+	text-decoration:none;
+	font-size:0.8em;
+}
+.header .menu_nav > ul {
+	overflow:hidden;
+}
+.header .menu_nav > ul > li {
+	float:left;
+}
+.header .menu_nav > ul > li > a {
+	height:30px;
+	font-size:1em;
+	line-height:1.8em;
+	padding:0px 12px;
+	color:#666;
+	border-radius:4px 4px 0px 0px;
+}
+.header .menu_nav > ul > li > a:hover{
+	color:#CC0000;
+	text-decoration:underline;
+}
+.header .menu_nav > ul > li.current-menu-item > a,
+.header .menu_nav > ul > li.current-post-ancestor > a,
+.header .menu_nav > ul > li.current-menu-parent > a {
+	color:#FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.header .menu_nav > ul > li.current-menu-item > a:hover,
+.header .menu_nav > ul > li.current-post-ancestor > a:hover,
+.header .menu_nav > ul > li.current-menu-parent > a:hover{
+	text-decoration:none;
+}
+.header .menu_nav > ul > li > ul {
+	display:none;
+	position:absolute;
+	left:0px;
+	width:960px;
+}
+.header .menu_nav > ul > li.current-menu-item > ul,
+.header .menu_nav > ul > li.current-post-ancestor > ul,
+.header .menu_nav > ul > li.current-menu-parent > ul{
+	display:block;
+}
+.header .menu_nav > ul > li > ul > li{
+	float:left;
+}
+.header .menu_nav > ul > li > ul > li > a{
+	color:#FFF;
+	height:30px;
+	line-height:2.4em;
+	padding:0px 10px 0px 11px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.header .menu_nav > ul > li > ul > li.current-menu-item >a,
+.header .menu_nav > ul > li > ul > li.current-post-parent > a{
+	text-decoration:underline;
+}
+/****** home *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25610 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25610 a{
+	background-color:#125F89;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25610 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25610 .sub-menu{
+	background-color:#125F89;	
+}
+/****** ambiente *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25614 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25614 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25614 a{
+	background-color:#01AAD5;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25614 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25614 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25614 .sub-menu{
+	background-color:#01AAD5;	
+}
+/****** attualità *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25618 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25618 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25618 a{
+	background-color:#F39D0A;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25618 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25618 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25618 .sub-menu{
+	background-color:#F39D0A;	
+}
+/****** cultura *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25621 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25621 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25621 a{
+	background-color:#893363;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25621 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25621 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25621 .sub-menu{
+	background-color:#893363;	
+}
+/****** green economy *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25623 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25623 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25623 a{
+	background-color:#6BAD30;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25623 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25623 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25623 .sub-menu{
+	background-color:#6BAD30;	
+}
+/****** salute *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25625 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25625 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25625 a{
+	background-color:#3F9F9E;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25625 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25625 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25625 .sub-menu{
+	background-color:#3F9F9E;	
+}
+/****** scienza *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-25629 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25629 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25629 a{
+	background-color:#79A0C1;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-25629 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-25629 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-25629 .sub-menu{
+	background-color:#79A0C1;	
+}
+/****** viaggi *******/
+.header .menu_nav > ul > li.current-menu-item.menu-item-31214 a,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-31214 a,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-31214 a{
+	background-color:#4795DD;	
+}
+.header .menu_nav > ul > li.current-menu-item.menu-item-31214 .sub-menu,
+.header .menu_nav > ul > li.current-post-ancestor.menu-item-31214 .sub-menu,
+.header .menu_nav > ul > li.current-menu-parent.menu-item-31214 .sub-menu{
+	background-color:#4795DD;	
+}
+/****** banner *******/
+.header .banner {
+	margin:15px 0px 0px 0px;
+	position:relative;
+}
+/** social **/
+.header .banner a.social{
+	position:absolute;
+	background-image:url(images/icone/social.jpg);
+	display:block;
+	height:49px;
+	width:50px;
+	top:0px;
+}
+.header .banner a.fb{
+	left:745px;
+	background-position:0px 0px;	
+}
+.header .banner a.tw{
+	left:800px;
+	background-position:-54px 0px;	
+}
+.header .banner a.gp{
+	left:855px;
+	background-position:-108px 0px;	
+}
+.header .banner a.yt{
+	left:910px;
+	background-position:-163px 0px;	
+}
+/** ricerca **/
+.header .banner .ricerca{
+	position:absolute;
+	height:49px;
+	top:65px;
+	left:745px;
+}
+.header .banner .ricerca #cse-search-box input[type="text"]{
+	width:145px;
+}
+.header .banner .ricerca #cse-search-box input[type="submit"]{
+	padding:0px 10px;
+	border:1px solid #125F89;
+	padding:1px 6px;
+	background-color: #125F89;
+	color:#fff;
+	border-radius:3px;
+}
+

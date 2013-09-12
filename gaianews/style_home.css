@@ -1,0 +1,530 @@
+/************** home **************/
+.home {
+	color:#444;
+}
+.home p{
+	margin:0px;
+	padding:0px;
+}
+.home > h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:2.4em;
+	line-height:1.1em;
+	padding:0px 0px 10px 0px;
+}
+/****** primo piano titolo sovrapposto ******/
+.home ul.primo_piano_tit_sovrapposto{
+	overflow:hidden;
+}
+.home ul.primo_piano_tit_sovrapposto > li{
+	width:640px;
+	height:400px;
+	position:relative;
+	margin:0px 0px 20px 0px;
+}
+.home ul.primo_piano_tit_sovrapposto > li .immagine{
+	position:absolute;
+	width:640px;
+	top:0px;
+	left:0px:
+	z-index:10;
+}
+.home ul.primo_piano_tit_sovrapposto > li a.testo{
+	position:absolute;
+	display:block;
+	bottom:0px;
+	left:0px:
+	z-index:20;
+	background-image:url(images/struttura/sfondo_scuro.png);
+	background-repeat:repeat;
+	color:#FFF;
+	padding:10px;
+}
+.home ul.primo_piano_tit_sovrapposto > li a.testo:hover{
+	text-decoration:none;
+}
+.home ul.primo_piano_tit_sovrapposto > li .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.8em;
+	line-height:1.1em;
+	padding:0px 0px 10px 0px;
+}
+.home ul.primo_piano_tit_sovrapposto > li .testo .excerpt{
+	font-size:0.9em;
+}
+/****** primo piano vertical slider ******/
+.home .primo_piano_vertical_slider{
+	position:relative;
+	overflow:hidden;
+	width:640px;
+	height:280px;
+	margin:0px 0px 20px 0px;
+}
+.home .primo_piano_vertical_slider > img{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.home .primo_piano_vertical_slider > a{
+	display:block;
+	position:absolute;
+	color:#FFF;
+	left:0px;
+	bottom:0px;
+	height:80px;
+	width:445px;
+	padding:0px 5px 0px 0px;
+	background-image:url(/wp-content/themes/gaianews/images/struttura/sfondo_scuro.png);
+}
+.home .primo_piano_vertical_slider > a:hover{
+	text-decoration:none;
+}
+.home .primo_piano_vertical_slider > a .titolo{
+	display:block;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	color:#FFF;
+	padding:5px 10px 5px 10px;
+}
+.home .primo_piano_vertical_slider > a .excerpt{
+	display:block;
+	color:#DDD;
+	height:50px;
+	padding:0px 10px 0px 10px ;
+	font-size:0.8em;
+	overflow:hidden;
+}
+.home .primo_piano_vertical_slider > ul {
+	position:absolute;
+	right:0px;
+	top:0px;	
+	width:200px;
+}
+.home .primo_piano_vertical_slider > ul > li{
+	height:70px;
+}
+.home .primo_piano_vertical_slider > ul > li > a.titolo{
+	display:block;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	line-height:1.3em;
+	padding:10px 0px 0px 10px;
+	margin:0px 0px 0px 10px;
+	height:63px;
+	width:180px;
+}
+.home .primo_piano_vertical_slider > ul > li > a.titolo:hover{
+	text-decoration:none;
+	background-color:#EDEDED;
+}
+.home .primo_piano_vertical_slider > ul > li.current{
+	background-image:url(images/struttura/vertical_slider.png);
+}
+.home .primo_piano_vertical_slider > ul > li.current > a.titolo{
+	color:#FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.home .primo_piano_vertical_slider > ul > li.current > a.titolo:hover{
+	background-color:transparent;
+}
+.home .primo_piano_vertical_slider > ul > li.current > a.titolo .categoria{
+	color:#FFF;
+}
+.home .primo_piano_vertical_slider > ul > li > a.titolo .categoria{
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:0.5em;
+	line-height:1.3em;
+	color:#666;
+}
+.home .primo_piano_vertical_slider > ul > li > img{
+	display:none;
+}
+.home .primo_piano_vertical_slider > ul > li .titolo_orig{
+	display:none;
+}
+.home .primo_piano_vertical_slider > ul > li .excerpt{
+	display:none;
+}
+/****** primo piano titolo sopra ******/
+.home ul.primo_piano_tit_sopra{
+	overflow:hidden;
+}
+.home ul.primo_piano_tit_sopra > li{
+	overflow:hidden;
+	width:640px;
+	margin:0px 0px 20px 0px;
+	padding:15px 0px 0px 0px;
+	border-top:1px solid #CCC;
+}
+.home ul.primo_piano_tit_sopra > li .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	color:#666;
+}
+.home ul.primo_piano_tit_sopra > li > h2 a{
+	display:block;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1em;
+	line-height:1em;
+	padding:0px 0px 15px 0px;
+}
+.home ul.primo_piano_tit_sopra > li img{
+	float:right;
+	margin-left:20px;
+}
+.home ul.primo_piano_tit_sopra > li .excerpt{
+	font-size:1em;
+	line-height:1.2em;
+	#color:#666666;
+}
+.home ul.primo_piano_tit_sopra > li .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.primo_piano_tit_sopra > li .excerpt ul li{
+	padding:0px 0px 0px 10px;
+	font-size:0.9em;
+}
+/****** secondo piano ******/
+.home ul.secondo_piano{
+	overflow:hidden;
+}
+.home ul.secondo_piano > li{
+	clear:both;
+	overflow:hidden;
+	margin:0px 0px 15px 0px;
+	padding:15px 0px 0px 0px;
+	border-top:1px solid #CCC;
+}
+.home ul.secondo_piano > li > .immagine{
+	float:left;
+	width:320px;
+}
+.home ul.secondo_piano > li > .testo{
+	float:right;
+	width:320px;
+	padding:5px 0px 0px 0px;
+}
+.home ul.secondo_piano > li > .testo .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	color:#666;
+}
+.home ul.secondo_piano > li > .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.4em;
+	line-height:1em;
+	padding:0px 0px 10px 0px;
+}
+.home ul.secondo_piano > li > .testo .excerpt{
+	font-size:0.9em;
+}
+.home ul.secondo_piano > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.secondo_piano > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+/****** terzo piano ******/
+.home ul.terzo_piano{
+	/*overflow:hidden;*/
+}
+.home ul.terzo_piano > li{
+	clear:both;
+	overflow:hidden;
+	border-top:1px solid #CCC;
+	padding:15px 0px 15px 0px;
+}
+.home ul.terzo_piano > li > .immagine{
+	float:left;
+	width:165px;
+}
+.home ul.terzo_piano > li > .testo .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	padding:0px 0px 2px 0px;
+	color:#666;
+}
+.home ul.terzo_piano > li > .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.1em;
+	line-height:1em;
+	padding:0px 0px 8px 0px;
+}
+.home ul.terzo_piano > li > .testo .excerpt{
+	font-size:0.8em;
+}
+.home ul.terzo_piano > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.terzo_piano > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+
+/****** terzo piano stretto ******/
+.home ul.terzo_piano_stretto{
+	overflow:hidden;
+	width:370px;
+	float:left;
+}
+.home ul.terzo_piano_stretto > li{
+	clear:both;
+	overflow:hidden;
+	border-top:1px solid #CCC;
+	padding:15px 0px 15px 0px;
+}
+.home ul.terzo_piano_stretto > li > .immagine{
+	float:left;
+	width:165px;
+}
+.home ul.terzo_piano_stretto > li > .testo .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	padding:0px 0px 2px 0px;
+	color:#666;
+}
+.home ul.terzo_piano_stretto > li > .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.1em;
+	line-height:1em;
+	padding:0px 0px 8px 0px;
+}
+.home ul.terzo_piano_stretto > li > .testo .excerpt{
+	font-size:0.8em;
+}
+.home ul.terzo_piano_stretto > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.terzo_piano_stretto > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+
+/****** terzo piano blog ******/
+.home ul.terzo_piano_blog{
+	overflow:hidden;
+	float:right;
+	width:250px;
+	padding:0px 0px 0px 0px;
+}
+.home ul.terzo_piano_blog > li{
+	clear:both;
+	overflow:hidden;
+	border-top:1px solid #CCC;
+	padding:15px 0px 15px 0px;
+}
+.home ul.terzo_piano_blog > li > .immagine{
+	height: 140px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    position: relative;
+    width: 290px;
+}
+	
+.home ul.terzo_piano_blog > li > .testo .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	padding:0px 0px 2px 0px;
+	color:#666;
+}
+.home ul.terzo_piano_blog > li > .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.1em;
+	line-height:1em;
+	padding:0px 0px 8px 0px;
+}
+.home ul.terzo_piano_blog > li > .testo .excerpt{
+	font-size:0.8em;
+}
+.home ul.terzo_piano_blog > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.terzo_piano_blog > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+
+.home ul.terzo_piano_blog > h2{
+  background-color: #4795DD;
+	padding: 10px;
+	margin:0px 0px 0px 0px;
+	font-size:1.1em;
+	line-height:1em;
+}
+.home ul.terzo_piano_blog > h2 .testata > a{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:normal;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/****** quarto piano Sx ******/
+.home ul.quarto_piano_sx{
+	overflow:hidden;
+	float:left;
+	width:300px;
+}
+.home ul.quarto_piano_sx .box_banner{
+	border-top:1px solid #CCC;
+	padding:20px 0px 10px 0px;
+}
+.home ul.quarto_piano_sx > li{
+	clear:both;
+	overflow:hidden;
+	border-top:1px solid #CCC;
+	padding:15px 0px 15px 0px;
+}
+.home ul.quarto_piano_sx > li > .testo h2{
+	font-weight:normal;
+	font-size:1.1em;
+	line-height:1em;
+	padding:0px 0px 8px 0px;
+}
+.home ul.quarto_piano_sx > li > .testo .excerpt{
+	font-size:0.8em;
+}
+.home ul.quarto_piano_sx > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.quarto_piano_sx > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+/****** quarto piano Dx ******/
+.home ul.quarto_piano_dx{
+	overflow:hidden;
+	float:right;
+	width:340px;
+	border-top:1px solid #CCC;
+	padding:15px 0px 0px 0px;
+}
+.home ul.quarto_piano_dx > li{
+	clear:both;
+	overflow:hidden;
+	padding:0px 0px 10px 40px;
+}
+.home ul.quarto_piano_dx > li > .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	line-height:1.2em;
+	color:#666;
+}
+.home ul.quarto_piano_dx > li > h2{
+	font-size:0.8em;
+	line-height:1em;
+}
+/****** sottocategoria ******/
+.home ul.sottocategoria{
+	overflow:hidden;
+}
+.home ul.sottocategoria > li{
+	clear:both;
+	overflow:hidden;
+	border-bottom:1px solid #CCC;
+	padding:15px 0px 15px 0px;
+}
+.home ul.sottocategoria > li > .immagine{
+	float:left;
+	width:165px;
+}
+.home ul.sottocategoria > li > .testo .categoria{
+	text-transform:uppercase;
+	font-size:0.7em;
+	padding:0px 0px 2px 0px;
+	color:#666;
+}
+.home ul.sottocategoria > li > .testo h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size:1.1em;
+	line-height:1em;
+	padding:0px 0px 8px 0px;
+}
+.home ul.viaggi > li > .testo h2{
+	font-size:1.4em;
+}
+.home ul.sottocategoria > li > .testo .infos{
+	font-size:0.8em;
+	color:#666;
+	padding:0px 0px 6px 0px;
+}
+.home ul.sottocategoria > li > .testo .infos span{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#090;
+}
+.home ul.sottocategoria > li > .testo .addthis_container{
+	height:13px;
+	padding:0px 0px 6px 0px;
+}
+.home ul.sottocategoria > li > .testo .excerpt{
+	font-size:0.8em;
+}
+.home ul.sottocategoria > li > .testo .excerpt ul{
+	list-style:disc;
+	list-style-position:inside;
+	padding:10px 0px 0px 0px;
+}
+.home ul.sottocategoria > li > .testo .excerpt ul li{
+	padding:0px 0px 0px 10px;
+}
+/****** box categorie ******/
+.home .categorie{
+	margin:30px 0px 0px 0px;
+}
+.home .categorie ul.box_categorie{
+	overflow:hidden;
+	float:left;
+	margin:20px 0px 0px 0px;
+	width:320px;
+	height:350px;
+}
+.home .categorie ul.box_categorie h2{
+  background-color: #125F89;
+	padding: 10px;
+	margin:0px 10px 0px 0px;
+	font-size:1.1em;
+	line-height:1em;
+}
+.home .categorie ul.box_categorie h2 a{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+.home .categorie ul.box_categorie .immagine{
+	overflow:hidden;
+	position:relative;
+	height:140px;
+	width:290px;
+	margin:0px 0px 10px 0px;
+}
+.home .categorie ul.box_categorie .immagine img{
+	position:absolute;
+	top:-20px;
+} 
+.home .categorie ul.box_categorie li{
+	padding: 10px 30px 0px 10px;
+}
+.home .categorie ul.box_categorie li a{
+	font-size:0.8em;
+	line-height:0.9em;
+}
+

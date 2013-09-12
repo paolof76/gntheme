@@ -1,0 +1,107 @@
+/* CSS Document */
+
+@media only screen and (max-width: 600px) { 
+
+	.col_dx { display: none;} 
+	
+	.page_wrapper {width:100%;}
+	
+	.page_wrapper .col_dx {display: none;}
+	
+	.page_body {width:100%;}
+		
+	.home ul.secondo_piano > li {
+		width:80%;
+	}
+	
+	.home ul.secondo_piano > li > .testo{
+		float:left;
+		width:100%;
+		padding:5px 0px 0px 0px;
+	}
+	
+	.home ul.terzo_piano > li{
+		width:80%;
+	}
+	
+	.home ul.primo_piano_tit_sopra > li {
+	    width:80%;
+	}
+	.home ul.primo_piano_tit_sopra > li img{
+		float:left;
+		margin-left:0px;
+		margin-right:20px;
+	}
+	
+	.page_body .dettaglio .testo .col_servizi {
+		display: none;
+	}
+	
+	.page_body {
+		width:95%;
+		margin: 20px 0 0 10px;
+	}
+	
+	.page_wrapper .header {
+		background-image: url("images/struttura/sfondo_header_280.png");
+		width: 95%;
+		height: auto;
+	}
+	
+	.page_wrapper .header .menu_nav {
+		height: auto;
+	}
+	
+	.page_wrapper .header a.home {
+		height: 55px;
+	}
+	
+	.header .menu_nav > ul > li > a {
+		border-radius: 0 0 0 0;
+	}
+	
+	.header .banner {
+		display: none;
+	}
+	
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25610 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25610 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25614 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25614 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25614 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25618 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25618 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25618 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25621 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25621 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25621 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25623 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25623 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25623 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25625 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25625 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25625 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-25629 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-25629 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-25629 .sub-menu {
+		display: none;
+	}
+	.header .menu_nav > ul > li.current-menu-item.menu-item-31214 .sub-menu, .header .menu_nav > ul > li.current-post-ancestor.menu-item-31214 .sub-menu, .header .menu_nav > ul > li.current-menu-parent.menu-item-31214 .sub-menu {
+		display: none;
+	}
+	
+	.home ul.quarto_piano_dx {
+		float:left;
+	}
+	.home ul.quarto_piano_dx > li{
+		padding: 15px 0 0;
+	}
+	
+	.footer {
+		width:100%;
+	}
+	
+	.footer .logo {
+		display:none;
+	}
+	
+}

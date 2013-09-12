@@ -1,0 +1,125 @@
+/* Tabella informazioni sul viaggio */
+.features-table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #2a2a2a;
+	text-align: left;
+}
+/* head */
+.features-table thead th {
+	height: 40px;
+	background-color: #4795DD;
+	color:#fff;
+	vertical-align:center;
+	padding: 0px 20px;
+	border-bottom: 1px solid #9CB0C5;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-weight:normal;
+}
+/* body */
+.features-table tbody td {
+	height: 40px;
+	vertical-align:center;
+	padding: 0px 20px;
+	text-shadow: 0px 1px 0px #fff;
+	border-bottom: 1px solid #BFC9D2;
+	font-size:0.8em;
+}
+.features-table tbody td:first-child {
+	width: 120px;
+	background: #C9D9F5;
+	font-weight:bold;
+}
+.features-table td:nth-child(2) {
+	background: #E6EDFB;
+}
+/* Form richiesta informazioni */
+#wpcf7-f29971-p32533-o1 form {
+	margin:50px 0px 0px 0px;
+}
+#wpcf7-f29971-p32533-o1 form span.wpcf7-not-valid-tip{
+	position:absolute;
+	left:-270px;
+	top:10px;
+	width:260px;
+	height:30px;
+	border:none;
+	color:#F30;
+	font-weight:normal;
+	background-color:transparent;
+}
+#wpcf7-f29971-p32533-o1 form .wpcf7-validation-errors{
+	border:none;
+	color:#FFFFFF;
+	background-color:#F30;
+	font-size:0.8em;
+	border-radius:5px;
+	padding:15px;
+}
+#wpcf7-f29971-p32533-o1 h2 {
+	background-color: #4795DD;
+	color:#fff;
+	padding: 0px 20px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-weight:normal;
+	font-style:normal;
+	font-size:1em;
+	padding: 10px 20px;
+}
+#wpcf7-f29971-p32533-o1 form p {
+	font-size:0.8em;
+	font-weight:bold;
+	padding:0px 0px 0px 10px;
+}
+#wpcf7-f29971-p32533-o1 form input[type="text"], 
+#wpcf7-f29971-p32533-o1 form textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 8px;
+	width: 580px;
+	margin:3px 0px 0px 0px;
+	color:#666;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+#wpcf7-f29971-p32533-o1 form input:focus {
+	border-color: #4795DD;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) inset, 0px 0px 8px rgba(71, 149, 221, 0.6);
+}
+#wpcf7-f29971-p32533-o1 form p.float {
+	float:left;
+	width:310px;
+}
+#wpcf7-f29971-p32533-o1 form p.float input {
+	float:left;
+	width:260px;
+}
+#wpcf7-f29971-p32533-o1 form textarea {
+	font-size:1em;
+	height:120px;
+}
+#wpcf7-f29971-p32533-o1 form textarea.avviso {
+	font-size:0.8em;
+	height:60px;
+}
+#wpcf7-f29971-p32533-o1 form input[type="submit"] {
+	background-color: #4795DD;
+	background-image: -moz-linear-gradient(center top, transparent, rgba(0, 0, 0, 0.2));
+	background-repeat: no-repeat;
+	border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.4);
+	border-image: none;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 8px 13px 0;
+	padding: 11px 19px 12px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	transition: all 0.1s linear 0s;
+}

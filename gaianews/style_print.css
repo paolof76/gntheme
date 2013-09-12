@@ -1,0 +1,129 @@
+/******** tags ********/
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	line-height:1em;
+	color:#333;
+}
+a {
+	color:#23609C;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+img {
+	border:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0px;
+	padding:0px;
+	letter-spacing:-1px;
+}
+ul, li {
+	margin:0px;
+	padding:0px;
+}
+ul {
+	list-style:none;
+}
+/******** stili comuni ********/
+.immagine_dx {
+	float:right;
+	margin:0px 0px 15px 15px;
+}
+.immagine_sx {
+	float:left;
+	margin:0px 15px 15px 0px;
+}
+.banner {
+	display:none;
+}
+.addthis_container{
+	display:none;
+}
+/******** struttura ********/
+.page_wrapper {
+	width:100%;
+}
+/******** header ********/
+.header {
+	display:none;
+}
+.header_print {
+	margin:0px 0px 50px 0px;
+}
+/******** page body ********/
+.page_body {
+	width:100%;
+}
+/******** dettaglio ********/
+.page_body .dettaglio h1 {
+	font-size:1.8em;
+	line-height:1em;
+	padding:0px;
+}
+.page_body .dettaglio h2 {
+	font-size:1.2em;
+	line-height:1.2em;
+	font-style:italic;
+	padding:10px 0px 0px 0px;
+	font-weight:normal;
+	color:#777;
+}
+.page_body .dettaglio .banner {
+	padding:20px 0px 20px 0px;
+}
+.page_body .dettaglio .autore_data {
+	font-style:italic;
+	font-size:0.9em;
+	color:#777;
+	padding:0px 0px 10px 0px;
+}
+.page_body .dettaglio .testo {
+	line-height:1.1em;
+}
+.page_body .dettaglio .testo .addthis_container{
+	height:13px;
+}
+.page_body .dettaglio .testo .tags{
+	padding:20px 0px 0px 0px;
+}
+/******** contenuto testuale ********/
+.page_body .dettaglio .testo .contenuto_testuale {
+	font-size:0.9em;
+	line-height:1.2em;
+}
+.page_body .dettaglio .testo .contenuto_testuale a {
+	text-decoration:underline;
+	font-weight:bold;
+}
+.page_body .dettaglio .testo .contenuto_testuale a:hover {
+	text-decoration:none;
+}
+.page_body .dettaglio .testo .contenuto_testuale .wp-caption{
+	width:390px !important;
+	overflow:hidden !important;
+}
+.page_body .dettaglio .testo .contenuto_testuale .wp-caption .wp-caption-text{
+	font-size:0.8em;
+	color:#666;
+}
+#respond{
+	display:none;
+}
+/******** dettaglio col_dx ********/
+.page_body .dettaglio .testo .col_servizi {
+	display:none;
+}
+/******** col dx ********/
+.col_dx {
+	display:none;
+}
+/******** footer ********/
+.footer {
+	display:none;
+}

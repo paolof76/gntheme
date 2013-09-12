@@ -1,0 +1,217 @@
+/******** tags ********/
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#EDEDED;
+	background-image:url(images/struttura/sfondo.jpg);
+	background-repeat:repeat-y;
+	background-position:center top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	line-height:1em;
+	color:#333;
+}
+a {
+	color:#23609C;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+img {
+	border:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0px;
+	padding:0px;
+	letter-spacing:-1px;
+}
+ul, li {
+	margin:0px;
+	padding:0px;
+}
+ul {
+	list-style:none;
+}
+/******** stili comuni ********/
+.immagine_dx {
+	float:right;
+	margin:0px 0px 15px 15px;
+}
+.immagine_sx {
+	float:left;
+	margin:0px 15px 15px 0px;
+}
+/******** struttura ********/
+.page_wrapper {
+	margin:0px auto;
+	width:1020px;
+	overflow:hidden;
+}
+/******** page body ********/
+.page_body {
+	float:left;
+	/*width:100%;*/
+	width:640px;
+	margin:0px 0px 0px 30px;
+	padding:0px 0px 20px 0px;
+	overflow:hidden;
+}
+/******** dettaglio ********/
+.page_body .dettaglio h1 {
+	font-size:1.8em;
+	line-height:1em;
+	padding:0px;
+}
+.page_body .dettaglio h2 {
+	font-size:1.2em;
+	line-height:1.2em;
+	font-style:italic;
+	padding:10px 0px 0px 0px;
+	font-weight:normal;
+	color:#777;
+}
+.page_body .dettaglio .banner {
+	padding:20px 0px 20px 0px;
+}
+.page_body .dettaglio .autore_data {
+	font-style:italic;
+	font-size:0.9em;
+	color:#777;
+	padding:0px 0px 10px 0px;
+}
+.page_body .dettaglio .testo {
+	line-height:1.1em;
+}
+.page_body .dettaglio .testo .addthis_container{
+	height:13px;
+}
+.page_body .dettaglio .testo .tags{
+	padding:20px 0px 0px 0px;
+}
+/******** contenuto testuale ********/
+.page_body .dettaglio .testo .contenuto_testuale {
+	font-size:0.9em;
+	line-height:1.2em;
+}
+.page_body .dettaglio .testo .contenuto_testuale a {
+	text-decoration:underline;
+	font-weight:bold;
+}
+.page_body .dettaglio .testo .contenuto_testuale a:hover {
+	text-decoration:none;
+}
+.page_body .dettaglio .testo .contenuto_testuale img {
+/*	width:60%;
+	height:60%;*/
+}
+.page_body .dettaglio .testo .contenuto_testuale .wp-caption{
+	width:390px !important;
+	overflow:hidden !important;
+}
+.page_body .dettaglio .testo .contenuto_testuale .wp-caption .wp-caption-text{
+	font-size:0.8em;
+	color:#666;
+}
+/******** dettaglio col_dx ********/
+.page_body .dettaglio .testo .col_servizi {
+	float:right;
+	width:200px;
+	border-left:1px dotted #ccc;
+	padding:0px 0px 10px 18px;
+	margin:0px 0px 0px 18px;
+}
+/******** SOCIALBAR ********/
+.page_body .dettaglio .testo .col_servizi .socialbar {
+	height:80px;
+}
+.page_body .dettaglio .testo .col_servizi .socialbar .item {
+	float:left;
+	padding:0px 5px 0px 0px;
+	height:70px;
+}
+.page_body .dettaglio .testo .col_servizi .socialbar .gp {
+	padding:2px 0px 0px 4px;
+}
+/******** widgets ********/
+.page_body .dettaglio .testo .col_servizi ul.widgets > li > h3 {
+	font-size:1em;
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 10px 0px;
+	border-bottom:1px dotted #ccc;
+}
+.page_body .dettaglio .testo .col_servizi ul.widgets > li > ul > li {
+	font-size:0.8em;
+	line-height:1.1em;
+	padding:0px 0px 7px 0px;
+}
+/******** form commenti ********/
+#respond {
+	padding:20px 0px 0px 0px;
+	margin:20px 0px 0px 0px;
+	border-top: 1px dotted #ccc;
+}
+#respond h3{
+	padding:0px 0px 10px 0px;
+}
+#respond #commentform {
+	font-size:0.9em;
+}
+#respond #commentform label {
+	color:#999;
+}
+#respond #commentform p {
+	margin:0px;
+	padding:5px 0px 5px 0px;
+}
+#respond #commentform input[type="text"] {
+	border: 1px solid #DDDDDD;
+	margin:0px 5px 0px 0px;
+	padding: 5px;
+	width: 250px;
+}
+#respond #commentform textarea {
+	border: 1px solid #DDDDDD;
+	width: 400px;
+	height:160px;
+}
+#respond #commentform .comment-form-comment label{
+	display:none;
+}
+#respond #commentform input[type="submit"] {
+	border: 1px solid #999;
+	margin: 5px 5px 1px 0px;
+	padding: 5px 20px;
+	background-color:#333;
+	color:#CCC;
+}
+#respond #commentform input[type="submit"]:hover {
+	background-color:#ccc;
+	color:#666;
+}
+/******** elenco commenti ********/
+ul.commentlist{
+	padding:20px 0px 0px 0px;
+}
+ul.commentlist p{
+	padding:5px 0px 20px 0px;
+	margin:0px;
+	font-size:0.8em;
+}
+ul.commentlist .avatar{
+	display:none;
+}
+ul.commentlist .comment-author{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	border-bottom:1px dotted #ccc;
+	padding:0px 0px 2px 0px;
+}
+ul.commentlist .comment-author .says{
+	display:none;
+}
+ul.commentlist .comment-meta{
+	padding:2px 0px 0px 0px;
+	font-size:0.8em;
+}
+	
