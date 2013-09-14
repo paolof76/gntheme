@@ -50,13 +50,25 @@
 <img src="<?php bloginfo('template_url'); ?>/images/struttura/sfondo_header.jpg" width="960" height="100" alt="Gaianews" class="header_print" />
 <div class="page_wrapper">
 <div class="header">
-  <a class="home" href="/" title="homepage"></a>
+	<div id="main_header">
+		<div class="container-fluid">
+			<div id="topbar"></div>
+			<h1>
+				<a class="home" href="/" title="homepage">
+					<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gaianews" />
+				</a>
+			</h1>
+		</div>
+	</div>
   <div class="menu_nav">
+	<div class="container-fluid">
       <?php wp_nav_menu(array(
 				'theme_location' => 'navigazione',
 				'container' => false, 
 			)); ?> 
+	</div>
   </div>
+  <!--
   <div class="banner">
 		<script type="text/javascript">
 		<!--
@@ -65,7 +77,7 @@
     google_ad_slot = "2757807039";
     google_ad_width = 728;
     google_ad_height = 90;
-    //-->
+    //-- >
     </script>
     <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     </script>
@@ -85,5 +97,6 @@
       <script type="text/javascript" src="http://www.google.it/coop/cse/brand?form=cse-search-box&amp;lang="></script>
     </div>
   </div>
+  -->
   
 </div>
