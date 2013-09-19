@@ -42,8 +42,6 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/tcal.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gaianews.js"></script>
 
-<meta name="google-site-verification" content="JzecLuR8X3mt7A5pVO_f9Gnsnyun-dwZNwIYwCTp7v8" />
-
 </head>
 <body>
 
@@ -52,7 +50,9 @@
 <div class="header">
 	<div id="main_header">
 		<div class="container-fluid">
-			<div id="topbar"></div>
+			<div id="topbar">
+				<?php echo date('l jS F Y'); ?>
+			</div>
 			<h1>
 				<a class="home" href="/" title="homepage">
 					<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Gaianews" />
@@ -60,43 +60,46 @@
 			</h1>
 		</div>
 	</div>
-  <div class="menu_nav">
-	<div class="container-fluid">
-      <?php wp_nav_menu(array(
+	<div class="menu_nav">
+		<div class="container-fluid">
+			<?php //uberMenu_easyIntegrate(); ?>
+			<?php wp_nav_menu(array(
 				'theme_location' => 'navigazione',
 				'container' => false, 
 			)); ?> 
+		</div>
 	</div>
-  </div>
-  <!--
-  <div class="banner">
-		<script type="text/javascript">
+	<div id="main_latest_news">
+		<div class="container-fluid">
+		
+		</div>
+	</div>
 		<!--
-    google_ad_client = "ca-pub-1417052182885260";
-    /* BANNER HEADER */
-    google_ad_slot = "2757807039";
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //-- >
-    </script>
-    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-    <a href="https://www.facebook.com/Gaianews.it" class="social fb" title="Seguici su Facebook" target="_blank"></a>
-    <a href="https://twitter.com/Gaianews" class="social tw" title="Seguici su Twitter" target="_blank"></a>
-    <a href="https://plus.google.com/u/0/104688499858525986145" class="social gp" title="Seguici su Google+" target="_blank"></a>
-    <a href="http://www.youtube.com/user/gaianewsitalia" class="social yt" title="Seguici su YouTube" target="_blank"></a>
-    <div class="ricerca">
-      <form action="http://www.google.it" id="cse-search-box">
-        <div>
-          <input type="hidden" name="cx" value="partner-pub-9411647215177959:6546513870" />
-          <input type="hidden" name="ie" value="UTF-8" />
-          <input type="text" name="q" size="40" />
-          <input type="submit" name="sa" value="Cerca" />
-        </div>
-      </form>      
-      <script type="text/javascript" src="http://www.google.it/coop/cse/brand?form=cse-search-box&amp;lang="></script>
-    </div>
-  </div>
-  -->
-  
+		<div class="banner">
+			<script type="text/javascript">
+			< !--
+			google_ad_client = "ca-pub-1417052182885260";
+			/* BANNER HEADER */
+			google_ad_slot = "2757807039";
+			google_ad_width = 728;
+			google_ad_height = 90;
+			//-- >
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+			<a href="https://www.facebook.com/Gaianews.it" class="social fb" title="Seguici su Facebook" target="_blank"></a>
+			<a href="https://twitter.com/Gaianews" class="social tw" title="Seguici su Twitter" target="_blank"></a>
+			<a href="https://plus.google.com/u/0/104688499858525986145" class="social gp" title="Seguici su Google+" target="_blank"></a>
+			<a href="http://www.youtube.com/user/gaianewsitalia" class="social yt" title="Seguici su YouTube" target="_blank"></a>
+			<div class="ricerca">
+				<form action="http://www.google.it" id="cse-search-box">
+					<div>
+						<input type="hidden" name="cx" value="partner-pub-9411647215177959:6546513870" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input type="text" name="q" size="40" />
+						<input type="submit" name="sa" value="Cerca" />
+					</div>
+				</form>      
+				<script type="text/javascript" src="http://www.google.it/coop/cse/brand?form=cse-search-box&amp;lang="></script>
+			</div>
+		</div> -->
 </div>
